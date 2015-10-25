@@ -1,0 +1,151 @@
+style.css
+
+@charset "utf-8";
+
+div{
+border: 10px solid silver;
+margin:1px 0 0 0;
+}
+
+div {
+    transition-property: opacity;
+    transition-duration: 2s;
+  }
+
+body{
+background: #8D8D91;
+font-family: Century Gothic;
+font-size: 16px;
+font-weight: bold;
+width:97.5%;
+height:260%;
+margin: 50px 0px;
+padding: 0px;
+}
+
+#wrapper{
+width: 700px;
+margin: auto;
+border: box solid silver;
+border: contain solid silver; 
+position: relative;
+}
+
+#logo{
+float:center;
+background: url('logo.png') no-repeat; 
+width:358px;
+height:85px;
+}
+
+
+#header{
+float: left;
+margin: 5px 0 0 0;
+width:103%;
+
+font-family: Rockwell extra Bold;
+}
+
+h2 {
+border-bottom: double 3px;
+text-align: center;
+}
+
+.slogan{
+float: center;
+font-family: Apple Chancery;
+font-size: 22px;
+font-weight: inherit;
+margin:1px 0 0 0;
+width:100%;
+height:50px;
+}
+
+#navigation ul
+{
+width:720px;
+height: 35px;
+float:center;
+margin-top:10px;
+border: solid silver;
+border-bottom: solid silver;
+padding: 5px; 
+margin-bottom: 40px;
+}
+
+#navigation ul li
+{
+float: left;
+list-style-type:none;
+}
+
+#navigation ul li a 
+{
+display: block;
+padding: 8px 25px 8px 25px;
+text-decoration: none;
+font-family:sans-serif;
+font-weight: bold;
+color: #0D0B0B;
+border-right: 1px solid #BBBBBB;
+}
+
+#navigation ul li a:hover
+{
+color:#FFF700; 
+background-color:#BBBBBB;
+}
+
+#content{
+float:left;
+background: #D2D2D4;
+margin-bottom:0px auto;
+padding: 15px;
+width:98%;
+border-radius: 6px;
+border: 1px solid silver;
+font-family:Times;
+color: #303030;
+}
+
+#footer{
+float:left;
+width:100%;
+height:50%;
+font-family:Times;
+font-size: 14px;
+padding:50px 15px;
+}
+
+.author{text-align: right;}
+
+
+.table{
+width: 600px;
+text-align:left;
+}
+
+
+.table1{
+width: 1100px;
+text-align:left;
+}
+
+.bullet{
+padding: 0px 200px;
+}
+
+.quote{
+font-size: 120%;
+color: #FFFF00;
+background-color: #8D8D91;
+}
+
+.slogan2{
+color: #000000;
+}
+
+#fb-root{
+text-align: right;
+}
